@@ -6,9 +6,9 @@ import { MutableRefObject } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 export const animateWithGsap = (
-  target: HTMLElement,
+  target: string,
   animationProps: GSAPTweenVars,
-  scrollProps: Partial<ScrollTrigger>
+  scrollProps?: Object
 ) => {
   gsap.to(target, {
     ...animationProps,

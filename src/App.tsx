@@ -1,4 +1,4 @@
-import { Hero, Highlights, Model, Navbar } from './components'
+import { Features, Hero, Highlights, Model, Navbar } from './components'
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
      <Hero/>
      <Highlights />
      <Model />
+     <Features />
     </>
   )
 }

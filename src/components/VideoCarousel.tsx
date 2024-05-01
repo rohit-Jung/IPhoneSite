@@ -144,7 +144,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = () => {
 
   // Handler for various video actions
   const handleProcess = (type: string, i: number) => {
-    console.log("data loaded: " + loadedData);
+    // console.log("data loaded: " + loadedData);
 
     switch (type) {
       case "video-end":
